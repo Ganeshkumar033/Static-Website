@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+/*First-Page*/
+.bg-card{
+    background-image: url(image/front.jpg);
+    height: 100vh;
+    width: 40vw;
+    background-size: cover;
+    margin-left:400px;
+    margin-right:360px;
+    border: 3px solid black;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-image: url(image/front.jpg2.jpg);
+    background-size:100vh;
+}
+.card{
+    border: 2px solid rgb(87, 82, 82); /* For visibility during testing */
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    font-family:'Times New Roman', Times, serif;
+    color:#eef3f5;
+    font-weight: 400;
+    height: 31.5vh;
+    width: 39.7vw;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    background: linear-gradient(135deg, #0870a0, #02e8f9, #04d096, #dee2e6);
+    background-size: 400% 400%;
+    box-sizing: border-box; /* Ensures padding and border are included in the dimensions */
+}
+
+.pragraph{
+    font-family: 'Caveat', cursive;
+}
+.button{
+   font-weight: 100;
+   border-radius: 50px;
+   font-size: 16px;
+   height:35px;
+   width: 30%;
+   outline: hidden;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   color:white;
+   background-color: #9fa93e;
+}
+
+/*Second-Page*/
+.bg-card2-container{
+    height: 100vh;
+    width: 40vw;
+    margin-left:400px;
+    margin-right:360px;
+    border: 3px solid black;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background: linear-gradient(135deg, #146f98, #02e8f9, #04d096, #dee2e6);
+    background-size: 400% 400%;
+    color:black;
+    font-family: Roboto;
+}
+
+.shops-card2{
+    padding: 20px;
+    
+}
+
+.card2-heading{
+    text-decoration: underline;
+}
+
+.Arun-Shop-Card{
+    height: 23vh;
+    width: 35vw;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding:15px;
+    text-decoration: none;
+    margin-top: 20px;
+    align-items: center;
+    gap: 10px;
+}
+.Arun-Shop-img{
+    height: 20vh;
+    width: 20vw;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+
+.Sonu-Shop-Card{
+    height: 23vh;
+    width: 35vw;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding:15px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.Vikash-Shop-Card{
+    height: 23vh;
+    width: 35vw;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding:15px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.Vikash-Shop-img{
+    height: 20vh;
+    width: 20vw;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+.btn1{
+    margin-top: 10px;
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.btn2{
+
+    margin-left: 220px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+/*Third-Page*/
+
+.bg-card3-container{
+    height: 100vh;
+    width: 40vw;
+    margin-left:400px;
+    margin-right:360px;
+    border: 3px solid black;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background: linear-gradient(135deg, #007cb6, #0bd5e3, #20e8af, #1077de);
+    background-size: 400% 400%;
+    color:black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.clause-slide{
+    background-color: white;
+    border: 0px solid black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+
+}
+.card3-heading{
+    text-decoration: underline;
+    padding: 20px;
+}
+
+.carousel-item{
+    height: 40vh;
+    width: 50vw;
+}
+
+.Crousel-card1-Text{
+    font-family: 'Roboto';
+    padding: 20PX;
+
+}
+.para-head{
+    font-weight: bold;
+}
+
+.btn-c{
+    width: 150px;
+    height: 35px;
+    margin-left: 140px;
+    margin-top: 20px;
+}
